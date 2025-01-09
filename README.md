@@ -1,17 +1,21 @@
 # Cybersecurity Project
 
-This repository contains a variety of cybersecurity tools and educational resources. It includes scripts for vulnerability scanning, guides for securing applications, and tools for ethical hacking.
+This project demonstrates various cybersecurity techniques using Python.
 
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Modules
+1. *AES Encryption & Decryption* - Uses AES encryption for securing messages.
+2. *Password Hashing* - Demonstrates hashing of passwords with SHA256.
+3. *Port Scanner* - Scans for open ports on a target machine.
+4. *Firewall Simulation* - A simple simulation of a firewall that filters traffic based on IP and Port.
 
-## Installation
+## Requirements
+- Install pycryptodome library for AES encryption:
+  
+  pip install pycryptodome
+  
+- For other modules, the standard Python libraries are sufficient.
 
-Clone the repository using the following command:
+## How to Run
+You can run individual Python files by executing them in your terminal:
 
-```bash
-git clone https://github.com/fardeenshroff/cybersecurity-project.git
+python aes_encryption.py python password_hashing.py python port_scanner.py python firewall_simulation.py
